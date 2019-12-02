@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#C3FF7E"/>
+            <stop offset="100%" stop-color="#90FF48"/>
+        </linearGradient>
+        <path id="b" d="M15.794 5.052l-4.065 2.322-5.806-.29-3.775-2.032-.018-3.229L5.806 0h5.807l4.18 1.858z"/>
+        <filter id="c" width="107.3%" height="113.6%" x="-3.7%" y="-6.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32651333 0"/>
+        </filter>
+        <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#99EB3C"/>
+            <stop offset="100%" stop-color="#65DA1A"/>
+        </linearGradient>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#5CBC10"/>
+            <stop offset="100%" stop-color="#2DA000"/>
+        </linearGradient>
+        <linearGradient id="f" x1="50%" x2="76.308%" y1="22.471%" y2="68.766%">
+            <stop offset="0%" stop-color="#89E900"/>
+            <stop offset="100%" stop-color="#51CE00"/>
+        </linearGradient>
+        <linearGradient id="g" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#5CBC10"/>
+            <stop offset="100%" stop-color="#2DA000"/>
+        </linearGradient>
+        <linearGradient id="h" x1="50%" x2="76.308%" y1="18.674%" y2="71.354%">
+            <stop offset="0%" stop-color="#89E900"/>
+            <stop offset="100%" stop-color="#51CE00"/>
+        </linearGradient>
+        <linearGradient id="i" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#5CBC10"/>
+            <stop offset="100%" stop-color="#2DA000"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#D8D8D8" fill-opacity="0" d="M0 0h18v18H0z"/>
+        <path fill="#227800" d="M18 8.129V4.065l-2.399-2.362-3.814-.135H6.213l-4.07.135L0 4.065v4.064l8.882 9.463z"/>
+        <path fill="#227800" d="M8.882 17.882L.025 8.002l8.857 1.012z"/>
+        <path fill="#227800" d="M8.882 9.014v8.868l8.857-9.88-8.857 1.012"/>
+        <g>
+            <use fill="url(#a)" xlink:href="#b"/>
+            <use fill="#000" filter="url(#c)" xlink:href="#b"/>
+        </g>
+        <path fill="url(#d)" d="M8.882 17.882l3.749-7.024h-7.29z"/>
+        <path fill="url(#e)" d="M2.884 1.417l.02 3.809L0 8.129V4.645z"/>
+        <path fill="url(#f)" d="M.025 8.002l5.317 2.856 1.161-3.774-3.6-1.858z"/>
+        <path fill="url(#g)" d="M5.342 10.858h7.289l-.844-3.774H6.213z"/>
+        <path fill="url(#h)" d="M12.6 10.858l5.164-2.856-2.667-2.776-3.406 1.989z"/>
+        <path fill="url(#i)" d="M18 4.645V8.13l-2.903-2.903V1.742z"/>
+    </g>
+</svg>
